@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(46, 46, 46);
+}
+
+*{
+    font-family: 'Pattaya', sans-serif;
+}
+
+#father{
+    background-color: rgb(167, 167, 167);
+    height: 350px;
+    width: 450px;
+    margin: auto;
+    margin-top: 110px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+}
+
+#sudokuTitle{
+   font-size: 50px;
+   color: white;
+}
+
+.userNameAndPassword{
+    width: 230px;
+    height: 40px;
+    padding-left: 3%;
+    font-size: 130%;
+    border: none;
+}
+
+.inputDiv{
+    height: 20%;
+}
+
+.error {
+    color: red;
+    font-size: 18px;
+    margin: 0;
+}
+
+#buttonEnter{
+    width: 90px;
+    height: 40px;
+    border: none;
+    margin-top: 10px;
+    background-color: white;
+    color: gray;
+}
+#buttonEnter:hover{
+    background-color: rgb(228, 228, 228);
+}

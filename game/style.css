@@ -1,0 +1,119 @@
+body{
+    /* background: linear-gradient(to left, rgb(36, 34, 34), rgb(216, 168, 168)); */
+    /* background-image: url('ddd.jpg'); */
+    background-size: cover;
+    /* display: flex; */
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    width: 90px;
+    height: 35px;
+    background-color: blueviolet;
+    color: aqua;
+    border: none;
+    border-radius: 4px;
+}
+#buttonsDiv{
+    margin-top: 30px;
+    margin-left: 140px;
+}
+
+/* #finish{
+    margin-left: 270px;
+} */
+
+#father{
+    width: 450px;
+    height: 450px;
+    margin: auto; 
+    margin-top: 50px; 
+    border: 2px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0 12px 2px rgb(124, 113, 113);
+    background-color: black;
+    opacity: .8;
+   
+   
+  
+}
+
+.soon {
+    border: 1px solid white;
+    width: 148px;
+    height: 148px;
+    display: flex;
+    flex-wrap: wrap;
+   
+
+}
+
+.numbers,.empty{
+    width: 47.2px;
+    height: 47.2px;
+    border: 1px solid white;
+    color: yellow;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+.empty{
+    background-color: rgb(139, 136, 136);
+}
+.empty:hover{
+    font-size: 35px;
+    font-weight: bold;
+    box-shadow: 0 0 20px 2px rgb(0, 0, 0);
+    background-color: rgb(196, 196, 196);
+}
+.selected{
+    background-color: rgb(68 68 74);
+}
+
+
+
+
+
+
+/* 
+
+#dropdown{
+    color: white;
+    background-color: rgb(100, 95, 95);
+    font-size: 13px;
+}
+
+#dropdown:hover{
+    background-color: rgb(185, 176, 176);   
+    color: rgb(147, 255, 255);
+}
+#dropdown-content{
+    display: none;
+    background-color: rgb(212, 212, 212);
+    /* margin-top: 10px; */
+/* } */
+/* button{
+background-color: blue;
+}
+#dropdown-content button {
+    color: black;
+    text-decoration: none;
+    display: block; */
+    /* text-align: center; */
+    /* padding: 10px 7px 10px 7px; */
+/* } */
+/* #dropdown-content button:hover{ */
+    /* background-color: rgb(148, 148, 148); */
+    /* color: rgb(147, 255, 255); */
+/* }
+#dropdown:hover #dropdown-content {
+    display: block;
+}  */

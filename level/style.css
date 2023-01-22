@@ -1,0 +1,47 @@
+body{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; */
+    width: 100vw;
+    height: 100vh;
+}
+#level{
+    height: 250px;
+    width: 350px;
+    top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border: rgb(109 133 72) 5px solid;
+    border-radius: 5px;
+    position: relative;
+    background-color: rgb(162 189 189);
+}
+#welcome{
+    position: absolute;
+    margin-left: 100px;
+    margin-right: 90px;
+    margin-top: 15px;
+}
+#difficulty{
+    position: absolute;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-left: 113px;
+    margin-right: 90px;
+}
+#buttons{
+    /* position: absolute; */
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-around;
+
+}
+button{
+    width: 40px;
+    color: rgb(63 195 63);
+    font-size: 30px;
+    background-color: blue;
+    border: none;
+    border-radius: 4px;
+}
